@@ -1,8 +1,23 @@
-# React + Vite
+<h1 align="center">
+  Clone Netflix
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://github.com/abneeralves/CloneNetflix/assets/121408278/b77df093-fbe8-46fd-9596-01322bcda47a width="100%" />
+</p>
 
-Currently, two official plugins are available:
+## 💻 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Clone da Netflix feito para expandir o conhecimento em react e javascript.*
+
+## 🚀 Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+## 🎬 Visualização do projeto
+
+- https://abneeralves.github.io/CloneNetflix/
+- obs: projeto perdeu o header.
