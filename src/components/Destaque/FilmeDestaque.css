@@ -1,0 +1,139 @@
+.destaque {
+    height: 100vh;
+}
+
+.ColorVertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.884) 5%, transparent);
+} 
+
+.ColorHorizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.884) 30%, transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+} 
+
+.NomeDestaque {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.InfoDestaque {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.VotosDestaque {
+    display: inline-block;
+    color: #46d369;
+    margin-right: 10px;
+}
+
+.AnosDestaque {
+    display: inline-block;
+    margin: 10px;
+}
+
+.DescricaoDestaque {
+    font-size: 1.5rem;
+    color: #999;
+    max-width: 50%;
+}
+
+.BotoesDestaque {
+    margin-top: 20px;
+}
+
+.Pbotao, .Sbotao {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 11px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: ease 0.3s;
+}
+
+.Pbotao:hover, .Sbotao:hover {
+    opacity: 0.7;
+}
+
+.Pbotao {
+    background-color: white;
+    color: black;
+}
+
+.Sbotao {
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.GenerosDestaque {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #999;
+}
+
+@media (max-width: 450px) {
+
+    .NomeDestaque {
+        font-size: 1.3rem;
+    }
+
+    .InfoDestaque {
+        font-size: 0.8rem;
+    }
+
+    .DescricaoDestaque{
+        font-size: 1rem;
+        max-width: 70%;
+    }
+
+    .Pbotao, .Sbotao {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .GenerosDestaque {
+        font-size: 0.7rem;
+    }
+
+    .ColorVertical {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.884) 5%, transparent);
+    } 
+    
+
+    .ColorHorizontal {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.87) 50%, transparent);
+    }
+}
+
+@media (min-width: 451px) and (max-width: 1000px) {
+    .NomeDestaque {
+        font-size: 2rem;
+    }
+
+    .DescricaoDestaque{
+        font-size: 1.2rem;
+        max-width: 60%;
+    }
+
+    .ColorVertical {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.884) 5%, transparent);
+    } 
+    
+
+    .ColorHorizontal {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.87) 45%, transparent);
+    }
+    
+}

@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent;
+    transition: all ease 0.3s;
+}
+
+.Efeito {
+    background-color: rgb(2, 2, 2);
+}
+
+.logoNet {
+    height: 40px;
+}
+
+.logoNet img {
+    height: 100%;
+}
+
+.Usuario {
+    height: 60px;
+}
+
+.Usuario img {
+    height: 100%;
+    border-radius: 2px;
+}
+
+@media (max-width: 450px) {
+
+    .logoNet {
+        height: 30px;
+    }
+
+    .Usuario {
+        height: 40px;
+    }
+}
