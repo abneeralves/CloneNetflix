@@ -15,7 +15,8 @@
 - HTML
 - CSS
 - JavaScript
-- React
+- React + Vite
+- API (TMDB)
 
 ## 🎬 Visualização do projeto
 
