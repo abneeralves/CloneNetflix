@@ -8,12 +8,12 @@ const Header = ({efeito}) => {
         <header className={efeito ? 'Efeito' : ''}>
             <div className="logoNet">
                 <a href="/">
-                    <img src={logoNet} alt="" />  
+                    <img src={logoNet} alt="Logo Netflix" />  
                 </a>
             </div>
             <div className="Usuario">
                 <a href="/">
-                    <img src={fotoAbner} alt="" />
+                    <img src={fotoAbner} alt="Foto Abner" />
                 </a>
 
             </div>
