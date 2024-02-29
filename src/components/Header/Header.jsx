@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.css'
-import logoNet from "../../assets/NetflixLogo.png"
-import fotoAbner from "../../assets/Abner.jpg"
+import logoNet from "/public/NetflixLogo.png"
+import fotoAbner from "/public/Abner.jpg"
 
 const Header = ({efeito}) => {
     return (
