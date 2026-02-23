@@ -21,4 +21,3 @@
 ## 🎬 Visualização do projeto
 
 - https://abneeralves.github.io/CloneNetflix/
-- obs: projeto perdeu o header.
